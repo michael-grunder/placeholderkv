@@ -121,6 +121,7 @@ endif
 
 # Override default settings if possible
 -include .make-settings
+export BUILD_TLS
 
 # For added compatibility REDIS_CFLAGS and REDIS_LDFLAGS are also supported.
 ifdef REDIS_CFLAGS
